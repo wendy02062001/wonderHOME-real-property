@@ -1,4 +1,7 @@
 <?php
+session_start();
+?>
+<?php
     require_once("settings.php");
 
     $_SESSION["active_page"] = "home";
@@ -18,22 +21,20 @@
 <html>
     <head>
         <title>wonderHOME</title>
-
-
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
+        <link href="http://fonts.cdnfonts.com/css/poetsen-one" rel="stylesheet">
     </head>
 
 
     <body>
         <!--header-->
-        <header>
-            <?php
-                require(dirname(__FILE__) . "/includes/header.php");
-            ?>
-        </header>
         
+        <?php
+            require(dirname(__FILE__) . "/includes/header.php");
+        ?>
+       
         <!-- main body -->
         <div class="wrapper">
             <!-- page's content -->
