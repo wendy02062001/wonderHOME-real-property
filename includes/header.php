@@ -4,9 +4,9 @@
 
 <header>
 <nav>
-  <div class="mx-auto max-w-7xl pt-4 px-2 sm:px-6 lg:px-8">
-    <div class="relative flex h-16 items-center justify-between">
-      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+  <div class="mx-auto max-w-7xl pt-4 px-2 md:px-4 lg:px-8">
+    <div class="relative flex h-16 items-center justify-center">
+      <div class="absolute inset-y-0 left-0 flex items-center md:hidden">
         <!-- Mobile menu button-->
         <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -32,8 +32,8 @@
           </svg>
         </button>
       </div>
-      <div class="flex items-center justify-start sm:justify-center">
-        <div class="hidden sm:ml-6 sm:block">
+      <div class="flex items-center justify-center">
+        <div class="hidden md:ml-6 md:block">
           <div class="flex space-x-4">
             <?php 
               foreach ($NAVLINK_VIE as &$value) 
@@ -47,14 +47,14 @@
           <img class="inline-block w-[200px]" src="assets/images/wonderHOME-logo.png" alt="wonderHOME">
         </a>  
       </div>
-      <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-        <button type="button" class="rounded-full p-1 mr-4 hover:text-amber-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+      <div class="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-4 md:pr-0">
+        <button type="button" class="hidden md:inline rounded-full p-1 mr-4 hover:text-amber-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"> <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/> </svg>
         </button>
         
 
-        <button class="group mr-4 text-amber-300 border border-amber-300 hover:border-transparent hover:bg-amber-300 font-bold py-2 px-4 rounded inline-flex items-center">
-          <span class="hidden md:inline text-sm group-hover:text-white">Đăng tin</span>
+        <button class="hidden md:inline group mr-4 text-amber-300 border border-amber-300 hover:border-transparent hover:bg-amber-300 font-bold py-2 px-4 rounded inline-flex items-center">
+          <span class="text-sm group-hover:text-white">Đăng tin</span>
           <svg class="fill-amber-300 group-hover:fill-white ml-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M17,19.22H5V7h7V5H5C3.9,5,3,5.9,3,7v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-7h-2V19.22z"/><path d="M19,2h-2v3h-3c0.01,0.01,0,2,0,2h3v2.99c0.01,0.01,2,0,2,0V7h3V5h-3V2z"/><rect height="2" width="8" x="7" y="9"/><polygon points="7,12 7,14 15,14 15,12 12,12"/><rect height="2" width="8" x="7" y="15"/></svg>
         </button>
 
@@ -93,7 +93,7 @@
   </div>
 
   <!-- Mobile menu, show/hide based on menu state. -->
-  <div class="sm:hidden" id="mobile-menu">
+  <div class="md:hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pt-2 pb-3">
       <?php 
         foreach ($NAVLINK_VIE as &$value) 
