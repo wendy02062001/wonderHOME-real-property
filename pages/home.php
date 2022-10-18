@@ -30,7 +30,7 @@
 </div>
 
 <!-- Grid 3 Content -->
-<div class="md:relative flex justify-center items-center w-10/12 lg:w-3/5 mx-auto mt-8 md:h-64 2xl:h-96">
+<div class="md:relative flex justify-center items-center w-11/12 lg:w-4/5 mx-auto mt-8 md:h-64 2xl:h-96">
     <div class="md:absolute md:-bottom-48 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div class="rounded-lg overflow-hidden shadow-lg bg-white">
             <img class="w-full h-50" src="assets/images/buy-a-home.jpg" alt="Buy a home">
@@ -63,14 +63,14 @@
 </div>
 
 <!-- Advanced House Search -->
-<div class="lg:px-48 px-8 lg:pt-80 lg:pb-36 md:my-64 lg:my-0 my-24 py-24 bg-gray-100 w-full">
+<div class="lg:px-32 px-8 lg:pt-80 lg:pb-36 md:my-64 lg:my-0 my-24 py-24 bg-gray-100 w-full">
     <!-- A line w-32 with gradient from amber to purple -->
     <div class="w-32 h-1 bg-gradient-to-r from-amber-300 to-purple-700"></div>
     <h1 class="font-bold text-4xl mt-4">Tìm nhà theo sở thích của bạn</h1>
 
     <!-- Advanced Search Bar -->
     <div class="flex justify-center items-center my-24 md:my-8 lg:mt-12 lg:mb-24 h-72 lg:h-48 lg:h-fit">
-        <div class="w-full">
+        <div class="w-11/12 md:w-4/5">
             <!-- Filter Select Bar with 4 criteria -->
             <div class="grid lg:grid-cols-4 md:grid-cols-2 md:gap-4 lg:gap-0 lg:h-20 text-neutral-900 lg:shadow-xl">
                 <div class="w-full h-20 mt-4">
