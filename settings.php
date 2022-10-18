@@ -3,9 +3,11 @@
     $ABS_ROOT_PATH = "wonderHOME.com";
 
     //available pages
-    $PAGES = ["home", "login", "logout", "register"];
-    $SERVICES = ["buy-a-home", "sell-a-home", "find-an-expert", ""];
-    $NAVLINK_VIE = array(["Mua nhà", "services/".$SERVICES[0]], ["Bán nhà", "services/".$SERVICES[1]], ["Tìm chuyên gia", "services/".$SERVICES[2]], ["Hướng dẫn", "services/".$SERVICES[3]]); 
+    $PAGES = ["home"];
+    $SERVICES = ["mua-nha", "ban-nha", "tim-chuyen-gia"];
+    $PROPERTY = ["thong-tin"];
+
+    $NAVLINK_VIE = array(["Mua nhà", "dich-vu/".$SERVICES[0]], ["Bán nhà", "dich-vu/".$SERVICES[1]], ["Tìm chuyên gia", "dich-vu/".$SERVICES[2]], ["Hướng dẫn", ""]); 
 
     //Font
     $FONT_FAMILY = "Poetsen One";
