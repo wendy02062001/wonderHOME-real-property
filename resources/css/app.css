@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Poetsen One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poetsen One'), url('assets/PoetsenOne-Regular.woff') format('woff');
+}
